@@ -13,18 +13,18 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
 
 declare(strict_types=1);
 
-namespace pocketmine\nbt;
+namespace xpocketmc\nbt;
 
-use pocketmine\nbt\tag\CompoundTag;
-use pocketmine\nbt\tag\Tag;
+use xpocketmc\nbt\tag\CompoundTag;
+use xpocketmc\nbt\tag\Tag;
 
 /**
  * This class wraps around the root Tag for NBT files to avoid losing the name information.

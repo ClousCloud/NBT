@@ -13,19 +13,19 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
 
 declare(strict_types=1);
 
-namespace pocketmine\nbt\tag;
+namespace xpocketmc\nbt\tag;
 
 use PHPUnit\Framework\TestCase;
-use pocketmine\nbt\LittleEndianNbtSerializer;
-use pocketmine\nbt\TreeRoot;
+use xpocketmc\nbt\LittleEndianNbtSerializer;
+use xpocketmc\nbt\TreeRoot;
 use const PHP_FLOAT_EPSILON;
 use const PHP_FLOAT_MAX;
 use const PHP_FLOAT_MIN;

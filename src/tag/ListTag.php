@@ -13,21 +13,21 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
 
 declare(strict_types=1);
 
-namespace pocketmine\nbt\tag;
+namespace xpocketmc\nbt\tag;
 
-use pocketmine\nbt\NBT;
-use pocketmine\nbt\NbtDataException;
-use pocketmine\nbt\NbtStreamReader;
-use pocketmine\nbt\NbtStreamWriter;
-use pocketmine\nbt\ReaderTracker;
+use xpocketmc\nbt\NBT;
+use xpocketmc\nbt\NbtDataException;
+use xpocketmc\nbt\NbtStreamReader;
+use xpocketmc\nbt\NbtStreamWriter;
+use xpocketmc\nbt\ReaderTracker;
 use function func_num_args;
 use function get_class;
 use function iterator_to_array;

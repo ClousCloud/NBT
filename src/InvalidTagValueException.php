@@ -13,15 +13,15 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
 
 declare(strict_types=1);
 
-namespace pocketmine\nbt;
+namespace xpocketmc\nbt;
 
 final class InvalidTagValueException extends \InvalidArgumentException{
 

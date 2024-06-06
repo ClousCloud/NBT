@@ -13,20 +13,20 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
 
 declare(strict_types=1);
 
-namespace pocketmine\nbt;
+namespace xpocketmc\nbt;
 
 use PHPUnit\Framework\TestCase;
-use pocketmine\nbt\tag\ByteTag;
-use pocketmine\nbt\tag\CompoundTag;
-use pocketmine\nbt\tag\ListTag;
+use xpocketmc\nbt\tag\ByteTag;
+use xpocketmc\nbt\tag\CompoundTag;
+use xpocketmc\nbt\tag\ListTag;
 
 class CreateTagTest extends TestCase{
 

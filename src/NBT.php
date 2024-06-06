@@ -13,8 +13,8 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
@@ -24,20 +24,20 @@ declare(strict_types=1);
 /**
  * Named Binary Tag handling classes
  */
-namespace pocketmine\nbt;
+namespace xpocketmc\nbt;
 
-use pocketmine\nbt\tag\ByteArrayTag;
-use pocketmine\nbt\tag\ByteTag;
-use pocketmine\nbt\tag\CompoundTag;
-use pocketmine\nbt\tag\DoubleTag;
-use pocketmine\nbt\tag\FloatTag;
-use pocketmine\nbt\tag\IntArrayTag;
-use pocketmine\nbt\tag\IntTag;
-use pocketmine\nbt\tag\ListTag;
-use pocketmine\nbt\tag\LongTag;
-use pocketmine\nbt\tag\ShortTag;
-use pocketmine\nbt\tag\StringTag;
-use pocketmine\nbt\tag\Tag;
+use xpocketmc\nbt\tag\ByteArrayTag;
+use xpocketmc\nbt\tag\ByteTag;
+use xpocketmc\nbt\tag\CompoundTag;
+use xpocketmc\nbt\tag\DoubleTag;
+use xpocketmc\nbt\tag\FloatTag;
+use xpocketmc\nbt\tag\IntArrayTag;
+use xpocketmc\nbt\tag\IntTag;
+use xpocketmc\nbt\tag\ListTag;
+use xpocketmc\nbt\tag\LongTag;
+use xpocketmc\nbt\tag\ShortTag;
+use xpocketmc\nbt\tag\StringTag;
+use xpocketmc\nbt\tag\Tag;
 
 abstract class NBT{
 

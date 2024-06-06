@@ -13,20 +13,20 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * @author xpocketmc Team
+ * @link http://www.xpocketmc.net/
  *
  *
 */
 
 declare(strict_types=1);
 
-namespace pocketmine\nbt;
+namespace xpocketmc\nbt;
 
-use pocketmine\nbt\tag\Tag;
-use pocketmine\utils\Binary;
-use pocketmine\utils\BinaryDataException;
-use pocketmine\utils\BinaryStream;
+use xpocketmc\nbt\tag\Tag;
+use xpocketmc\utils\Binary;
+use xpocketmc\utils\BinaryDataException;
+use xpocketmc\utils\BinaryStream;
 use function strlen;
 
 /**
